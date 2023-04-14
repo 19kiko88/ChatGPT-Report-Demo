@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap與Flexbox樣板</title>
+  <!-- 引入Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div style="margin:20px auto;">
+	<span style="color:red">對ChatGPT下的指令：</span>
+	<img src="./gpt1.jpg" title="main 區塊裡面請幫我做一個form表單，讓我可以輸入基本資料" class="img-fluid">
+  </div>
+
+  <div class="container">  
+    <!-- header -->
+    <header class="bg-primary text-white text-center py-3">
+      <h1>我的網站標題</h1>
+    </header>
+
+<!-- content -->
+<main class="my-4">
+<!--
+  <div class="d-flex flex-wrap">
+    <div class="p-2 flex-fill">
+      <h2>區塊一</h2>
+      <p>這裡是區塊一的內容。</p>
+    </div>
+    <div class="p-2 flex-fill">
+      <h2>區塊二</h2>
+      <p>這裡是區塊二的內容。</p>
+    </div>
+    <div class="p-2 flex-fill">
+      <h2>區塊三</h2>
+      <p>這裡是區塊三的內容。</p>
+    </div>
+  </div>
+  -->
+  <div class="row mt-5">
+    <div class="col-md-8 offset-md-2">
+      <h2>基本資料表單</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">姓名</label>
+          <input type="text" class="form-control" id="name" placeholder="請輸入您的姓名">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">電子郵件</label>
+          <input type="email" class="form-control" id="email" placeholder="請輸入您的電子郵件">
+        </div>
+        <div class="mb-3">
+          <label for="phone" class="form-label">電話號碼</label>
+          <input type="tel" class="form-control" id="phone" placeholder="請輸入您的電話號碼">
+        </div>
+        <button type="submit" class="btn btn-primary">提交</button>
+      </form>
+    </div>
+  </div>
+</main>
+
+
+    <!-- footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      <p>&copy; 2023 我的網站. 版權所有.</p>
+    </footer>
+  </div>
+
+  <!-- 引入Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

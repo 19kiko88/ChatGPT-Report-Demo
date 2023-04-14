@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>月會分享-AI 聊天機器人 - ChatGPT 為例</title>
+  <!-- 引入Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">  
+  <link href="./css/style.css" rel="stylesheet">    
+  
+  <!-- 引入Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+
+<body>
+
+<div style="display:flex; justify-content:center;">	
+	<nav aria-label="Page navigation example">
+		<ul class="pagination">
+			<li class="page-item"><a class="page-link" href=".\step1.html">1</a></li>
+			<li class="page-item"><a class="page-link" href=".\step2.html">2</a></li>
+			<li class="page-item"><a class="page-link" href=".\step3.html">3</a></li>
+			<li class="page-item"><a class="page-link" href=".\step4.html">4</a></li>
+			<li class="page-item"><a class="page-link" href=".\step5.html">5</a></li>
+		</ul>
+	</nav>
+</div>	
+
+<div style="display:flex; justify-content:center;">	
+	<div style="margin-bottom:20px;">
+		<!-- Button trigger modal -->
+		<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+		對ChatGPT下的指令
+		</button>
+		
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<img height="800" width="750" src="./pic/gpt4.jpg" title="Name欄位請幫我加上必填欄位檢核">
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+				</div>
+				</div>
+			</div>
+		</div>		
+	</div> 	
+</div>  
+
+  
+    <!-- header -->
+    <header class="bg-primary text-white text-center py-3">
+      <h1>ChatGPT幫你做RWD網頁表單 - Step.4 加上姓名欄位檢核</h1>
+    </header>
+
+<!-- content -->
+<main class="my-4">
+<!--
+  <div class="d-flex flex-wrap">
+    <div class="p-2 flex-fill">
+      <h2>區塊一</h2>
+      <p>這裡是區塊一的內容。</p>
+    </div>
+    <div class="p-2 flex-fill">
+      <h2>區塊二</h2>
+      <p>這裡是區塊二的內容。</p>
+    </div>
+    <div class="p-2 flex-fill">
+      <h2>區塊三</h2>
+      <p>這裡是區塊三的內容。</p>
+    </div>
+  </div>
+  -->
+ <div class="row mt-5">
+    <div class="col-md-8 offset-md-2">
+      <h2>基本資料表單</h2>
+      <form>
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="name" class="form-label">姓名</label>
+            <input type="text" class="form-control" id="name" placeholder="請輸入您的姓名" required>
+          </div>
+          <div class="col-md-6">
+            <label for="email" class="form-label">電子郵件</label>
+            <input class="form-control" id="email" placeholder="請輸入您的電子郵件">
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="phone" class="form-label">電話號碼</label>
+            <input type="tel" class="form-control" id="phone" placeholder="請輸入您的電話號碼">
+          </div>
+          <div class="col-md-6">
+            <label for="address" class="form-label">地址</label>
+            <input type="text" class="form-control" id="address" placeholder="請輸入您的地址">
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">提交</button>
+      </form>
+    </div>
+  </div>
+</main>
+
+
+    <!-- footer -->
+    <footer class="bg-dark text-white text-center py-3">	  		
+      <div style="display:flex; justify-content:center; align-items:center;">
+			<div class="logo">			
+				<a href="#"></a>			
+			</div>
+			<div>Layout-<span style="font-weight:bold; font-style: italic;">CAE</span></div>&ensp;&copy;&ensp;2023
+			<div>
+			。&ensp;有網頁程式開發需求請聯繫Layout 專案室!!
+			</div>		 
+		</div>
+    </footer>
+  </div>
+
+
+</body>
+
+</html>

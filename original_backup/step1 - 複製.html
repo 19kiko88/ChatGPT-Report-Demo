@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap與Flexbox樣板</title>
+  <!-- 引入Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div style="margin:20px auto;">
+	<span style="color:red">對ChatGPT下的指令：</span>
+	<img src="./gpt1.jpg" title="對ChatGPT下的指令：你現在是個HTML網頁前端專家，請你幫我做出一個套用bootstrap跟flexbox的HTML樣板LAYOUT，其中要包含header. footer 以及Content區塊" class="img-fluid">
+  </div>	
+
+  <div class="container">   
+    <!-- header -->
+    <header class="bg-primary text-white text-center py-3">
+      <h1>我的網站標題</h1>
+    </header>
+
+    <!-- content -->
+    <main class="my-4">
+      <div class="d-flex flex-wrap">
+        <div class="p-2 flex-fill">
+          <h2>區塊一</h2>
+          <p>這裡是區塊一的內容。</p>
+        </div>
+        <div class="p-2 flex-fill">
+          <h2>區塊二</h2>
+          <p>這裡是區塊二的內容。</p>
+        </div>
+        <div class="p-2 flex-fill">
+          <h2>區塊三</h2>
+          <p>這裡是區塊三的內容。</p>
+        </div>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      <p>&copy; 2023 我的網站. 版權所有.</p>
+    </footer>
+  </div>
+
+  <!-- 引入Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

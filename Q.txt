@@ -1,0 +1,11 @@
+ChatGPT Q：
+
+1.你現在是個HTML網頁前端專家，請你幫我做出一個套用bootstrap跟flexbox的HTML樣板LAYOUT，其中要包含header. footer 以及Content區塊
+
+2.main 區塊裡面請幫我做一個form表單，讓我可以輸入基本資料
+
+3.幫我加上class row，每個row要有兩個input
+
+4.Name欄位請幫我加上必填欄位檢核
+
+5.email欄位幫我加上email格式檢核

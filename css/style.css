@@ -1,0 +1,39 @@
+.modal {
+    text-align: center;
+}
+
+.modal-dialog {
+    text-align: left; /* you'll likely want this */
+    max-width: 100%;
+    width: auto !important;
+    display: inline-block;
+	overflow-y: initial !important
+}
+
+.modal-body{
+	/*height: 250px;*/
+	overflow-y: auto;
+}
+
+.logo-eip {
+    position: relative; /*不影響複層元素*/
+    display: block;
+    float: left;
+    width: 198px;
+    height: 54px;
+    border-right: 1px solid #444;
+}
+
+.logo a {
+    display: block;
+    float: left;
+    width: 40px;
+    height: 54px;
+    margin: 0;
+    color: #fff;
+    padding: 15px 0 0 105px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    background: url(../images/logo.png) no-repeat;
+}
