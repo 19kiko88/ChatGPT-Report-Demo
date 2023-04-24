@@ -6,17 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>月會分享-AI 聊天機器人 - ChatGPT 為例</title>
   <!-- 引入Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">  
+  <link href="./css/bootstrap.min.css" rel="stylesheet">  
   <link href="./css/style.css" rel="stylesheet">    
   
   <!-- 引入Bootstrap JavaScript -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/jquery.min.js"></script> 
 </head>
 
 <body>
-
 <div style="display:flex; justify-content:center;">	
 	<nav aria-label="Page navigation example">
 		<ul class="pagination">
@@ -45,7 +44,7 @@
 					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 				</div>
 				<div class="modal-body">
-					<img height="800" width="750" src="./pic/gpt5.jpg" title="email欄位幫我加上email格式檢核">
+					<img height="800" width="750" src="./pic/gpt2.jpg" title="main 區塊裡面請幫我做一個form表單，讓我可以輸入基本資料">
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -54,13 +53,12 @@
 			</div>
 		</div>		
 	</div> 	
-</div>
+</div> 
 
-  
-  
+  <div class="container_test">  
     <!-- header -->
     <header class="bg-primary text-white text-center py-3">
-      <h1>ChatGPT幫你做RWD網頁表單 - Step.5 加上EMAIL欄位檢核</h1>
+      <h1>ChatGPT幫你做RWD網頁表單 - Step.2 網頁主要內容替換為表單</h1>
     </header>
 
 <!-- content -->
@@ -81,29 +79,21 @@
     </div>
   </div>
   -->
- <div class="row mt-5">
+  <div class="row mt-5">
     <div class="col-md-8 offset-md-2">
       <h2>基本資料表單</h2>
       <form>
-        <div class="row mb-3">
-          <div class="col-md-6">
-            <label for="name" class="form-label">姓名</label>
-            <input type="text" class="form-control" id="name" placeholder="請輸入您的姓名" required>
-          </div>
-          <div class="col-md-6">
-            <label for="email" class="form-label">電子郵件</label>
-            <input type="email" class="form-control" id="email" placeholder="請輸入您的電子郵件">
-          </div>
+        <div class="mb-3">
+          <label for="name" class="form-label">姓名</label>
+          <input type="text" class="form-control" id="name" placeholder="請輸入您的姓名">
         </div>
-        <div class="row mb-3">
-          <div class="col-md-6">
-            <label for="phone" class="form-label">電話號碼</label>
-            <input type="tel" class="form-control" id="phone" placeholder="請輸入您的電話號碼">
-          </div>
-          <div class="col-md-6">
-            <label for="address" class="form-label">地址</label>
-            <input type="text" class="form-control" id="address" placeholder="請輸入您的地址">
-          </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">電子郵件</label>
+          <input type="email" class="form-control" id="email" placeholder="請輸入您的電子郵件">
+        </div>
+        <div class="mb-3">
+          <label for="phone" class="form-label">電話號碼</label>
+          <input type="tel" class="form-control" id="phone" placeholder="請輸入您的電話號碼">
         </div>
         <button type="submit" class="btn btn-primary">提交</button>
       </form>
